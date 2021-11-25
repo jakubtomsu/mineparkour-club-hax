@@ -1,21 +1,15 @@
 # mineparkour-club-hax
 Snippets of code for "hacking" mineparkour.club - a really broken web game I play when I'm bored in school  
 https://mineparkour.club/
-</br>
-</br>
 
 # how to use
 - open the developer tools in your browser (Chromium browsers use F12 shortcut for dev tools)
 - open console
 - paste the code
 - done!
-</br>
-</br>
 
 # contributions
 yes please! contribute however you want!
-</br>
-</br>
 
 # guides
 ### player
@@ -49,9 +43,6 @@ document.addEventListener("keydown", function(inp) {
   console.log("hello")
 });
 ```
-</br>
-</br>
-
 # TODO
 if you have an idea how to do any of these things, please feel free to commit
 - custom skin loading
