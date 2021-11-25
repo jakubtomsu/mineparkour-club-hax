@@ -27,3 +27,8 @@ https://mineparkour.club/
 ## skins
 - use `chooseSkin(...)` function to set any skin
 - the argument is name of the skin from the shop, for exaple: `chooseSkin('god')`
+
+# TODO
+if you have an idea how to do any of these things, please feel free to commit
+- custom skin loading
+- enable chat (that seems to be an unfinished and disabled feature)
