@@ -26,7 +26,21 @@ https://mineparkour.club/
 - you can change the number of coins to arbitrary number using global variable `coins`
 ## skins
 - use `chooseSkin(...)` function to set any skin
-- the argument is name of the skin from the shop, for exaple: `chooseSkin('god')`
+- the argument is name of the skin from the shop, for exaple: `chooseSkin("god")`
+## event listeners
+you can add event listeners to listen to mouse/keyboard input  
+`docuument.addEventListener(type, listener, ?options)`
+- type: `"keydown"`, `"mousedown"`
+- listener: the function to run  
+
+example:
+```javascript
+document.addEventListener("keydown", function(inp) {
+  console.log(inp.key)
+  if (inp.key != "g") { return; }
+  console.log("hello")
+});
+```
 
 # TODO
 if you have an idea how to do any of these things, please feel free to commit
