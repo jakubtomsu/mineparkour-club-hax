@@ -7,10 +7,7 @@ https://mineparkour.club/
 - open console
 - paste the code
 - done!
-
-# contributions
-yes please! contribute however you want!
-
+- 
 # guides
 ### player
 - You can access some of the player data with `controls.getObject()`
