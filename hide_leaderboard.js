@@ -1,0 +1,1 @@
+leaderboardVisual.opacity = 0;
