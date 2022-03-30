@@ -1,4 +1,4 @@
-let myname = "Joe Mama";
+let myname = document.getElementById('nickname').value;
 
 function removePlayers() {
 	if (leaderboardVisual.objects.length <= 1) {
