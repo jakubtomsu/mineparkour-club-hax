@@ -2,6 +2,9 @@
 Snippets of code for "hacking" mineparkour.club - a really broken web game I play when I'm bored in school  
 https://mineparkour.club/  
 
+And here is a discord server for 1337 haxers
+https://discord.gg/HBTtdVAUjt
+
 # how to use
 - open the developer tools in your browser (Chromium browsers use F12 shortcut for dev tools)
 - open console
