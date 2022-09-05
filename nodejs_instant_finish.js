@@ -1,7 +1,8 @@
 const WebSocket = require('websocket').w3cwebsocket;
 
 const NAME = 'NAME HERE';
-const TIME = 100; // time in milliseconds it takes for each win
+const DISPLAY_TIME = 0; // number of seconds displayed on leaderboard time (can be a floating point number)
+const INTERVAL = 100; // send packet interval
 
 const websocket = new WebSocket('wss://gs0.mineparkour.club/ws');
 websocket.binaryType = 'arraybuffer';
@@ -39,10 +40,10 @@ function start() {
 
     const packet = toBuffer([{
         'type': 'done',
-        'object': 0
+        'object': DISPLAY_TIME
     }]);
 
     setInterval(function() {
         websocket.send(packet);
-    }, TIME);
+    }, INTERVAL);
 }
