@@ -1,4 +1,4 @@
-const W3CWebSocket = require('websocket').w3cwebsocket;
+const WebSocket = require('websocket').w3cwebsocket;
 
 const NAME = 'NAME HERE';
 const TIME = 100; // time in milliseconds it takes for each win
